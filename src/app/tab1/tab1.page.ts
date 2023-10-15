@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicModule } from '@ionic/angular';
 import { ExploreContainerComponent } from '../explore-container/explore-container.component';
-import { PhotoService } from '../services/photo.service';
+
 
 
 @Component({
@@ -12,10 +12,6 @@ import { PhotoService } from '../services/photo.service';
   imports: [IonicModule, ExploreContainerComponent],
 })
 export class Tab1Page {
-  
-  constructor(public photoService: PhotoService) { }
+  constructor() {}
 
-  addPhotoToGallery() {
-    this.photoService.addNewToGallery();
-  }
 }
