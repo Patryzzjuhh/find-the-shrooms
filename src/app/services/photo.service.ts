@@ -24,6 +24,7 @@ export class PhotoService {
   }
   constructor() { }
 }
+
 export interface UserPhoto {
   filepath: string;
   webviewPath?: string;

@@ -25,3 +25,6 @@ bootstrapApplication(AppComponent, {
     provideRouter(routes),
   ],
 });
+
+defineCustomElements(window);
+
