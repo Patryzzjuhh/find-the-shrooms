@@ -1,0 +1,27 @@
+ion-grid {
+    --ion-grid-columns: 2;
+
+    --ion-grid-padding-xs: 10px;
+    --ion-grid-padding-sm: 10px;
+    --ion-grid-padding-md: 10px;
+    --ion-grid-padding-lg: 10px;
+    --ion-grid-padding-xl: 10px;
+
+    //--ion-grid-column-padding-xs: 30px;
+    //--ion-grid-column-padding-sm: 30px;
+    //--ion-grid-column-padding-md: 30px;
+    //--ion-grid-column-padding-lg: 30px;
+    //--ion-grid-column-padding-xl: 30px;
+}
+
+ion-col {
+    background-color: transparent;
+    border: transparent 1px #fff;
+    color: #fff;
+    text-align: center;
+    margin: 1%;
+    max-width: 48%;
+}
+ion-card{
+    width: 40%;
+}
