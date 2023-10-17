@@ -2,8 +2,6 @@ import { Component } from '@angular/core';
 import { IonicModule } from '@ionic/angular';
 import { ExploreContainerComponent } from '../explore-container/explore-container.component';
 
-
-
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
@@ -13,5 +11,4 @@ import { ExploreContainerComponent } from '../explore-container/explore-containe
 })
 export class Tab1Page {
   constructor() {}
-
 }
